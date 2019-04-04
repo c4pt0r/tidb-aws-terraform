@@ -1,19 +1,17 @@
 variable "aws_access_key" {
   type        = "string"
   description = "Your AWS access key id"
-  default     = ""
 }
 
 variable "aws_secret_key" {
   type        = "string"
   description = "Your AWS secret key"
-  default     = ""
 }
 
 variable "aws_region" {
   type        = "string"
   description = "The AWS region you want to create resources"
-  default     = "cn-northwest-1"
+  default     = "us-east-1"
 }
 
 variable "public_subnets" {
