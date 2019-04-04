@@ -57,7 +57,7 @@ data "aws_ami" "distro" {
     values = ["hvm"]
   }
 
-  owners = ["141808717104"] #Amazon Linux 2
+  owners = ["137112412989"] #Amazon Linux 2
 }
 
 resource "aws_instance" "bastion" {
